@@ -5,7 +5,7 @@ A series of code challenges
 
 ### Integer Numbers Range
 
-Write some code with a function/method that accepts two integers `x1` and `x2` returns all the integers between them. If `x2` is lower than `x1` it should return -1
+Write some code with a function/method that accepts two integers `x1` and `x2` returns all the integers between them. If `x2` is lower than `x1` it should return -1. Provide output to console or web page.
 
 ### Multiplications table
 
