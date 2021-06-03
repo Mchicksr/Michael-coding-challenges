@@ -11,11 +11,11 @@ Write some code with a function/method that accepts two integers `x1` and `x2` r
 
 Write a function/method that writes in the console the multiplication table (from 1 to 10)
 
-![multiplication](https://github.com/Kevin-CodeCrew/exercises-javascript/blob/master/01-first-steps/img/multiplication-table.png?raw=true)
+![multiplication](./multiplication-table.png?raw=true)
 
 ### Multiplications table on demand
 
-Write a function that writes in the console the multiplication table (in one column) of any number passed as parameter
+Write a function/method that writes in the console the multiplication table (in one column) of any number passed as parameter
 
 ### Calculation
 
@@ -60,3 +60,19 @@ So the result would be when using JavaScript for these cases in the JavaScript c
     >>> var a = getRGB ('#00FF00'); 
     >>> a;
     “rgb(0,255,0)   verde”;
+
+
+## Create a user feedback form using prompt
+You can use an HTML form or console prompts to collect the 3 pieces of required information. 
+Name, issue, and steps to reproduce the error.
+
+- Prompt for the User's name
+- Prompt for the description of the issue they are experiencing
+- Prompt for the steps that can be used to re-produce the user's issue
+- If the user enters a blank string *for any property*, display an alert to let them know all fields must be populated, and then restart the iteration of the loop so they can reenter all 3 fields again.
+- Keep prompting the user *until all 3 fields are provided* otherwise make user start over and enter all 3 fields again.
+
+Once all 3 values collected, use a template literal that displays the entered information using a `confirm` dialog box.
+The confirm box should display the information entered.
+
+![Example Confirm Output](./confirm.png)
