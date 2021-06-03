@@ -62,7 +62,7 @@ So the result would be when using JavaScript for these cases in the JavaScript c
     “rgb(0,255,0)   verde”;
 
 
-## Create a user feedback form using prompt
+## Create a user feedback form using form/prompt
 You can use an HTML form or console prompts to collect the 3 pieces of required information. 
 Name, issue, and steps to reproduce the error.
 
