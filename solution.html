@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="solution.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form name="form" action=""  method="post"> -->
+    <form name="form" action="">
+        <label for="name">Name</label><br>
+        <input id="name"name="name" type="text" ><br>
+        <label for="issue">Issue</label><br>
+        <textarea name="issue" id="issue" value="issue"></textarea><br>
+        <label for="attempt">Steps Attempted</label><br>
+        <textarea name="attempt" id="attempt" value="attempt"></textarea><br>
+        <button type="submit" onclick="submitForm(); return false">Submit</button>
+        <button id="form" name="form" type="reset">Reset</button>
+    </form>
+
+    <script>
+     
+         function submitForm(){
+            // event.preventDefault();
+            console.log('click')
+       let form = document.forms['form']['name'].value
+       let form2 = document.forms['form']['issue'].value
+       let form3 = document.forms['form']['attempt'].value
+
+       let value1 = document.getElementById('name').value
+        // console.log(value1)
+        let value2 = document.getElementById('issue').value
+        // console.log(value2)
+        let value3 = document.getElementById('attempt').value
+        // console.log(value3)
+
+       switch(form){
+        case form:
+           if(form == '') {
+           alert("all fields must be populated")
+           // form.reset();
+           return false
+        }
+            if(form2 == '') {
+            alert("all fields must be populated")
+            // form.reset();
+            return false
+        }
+            if(form3 == '') {
+            alert("all fields must be populated")
+            // form.reset();
+            return false
+        }
+           break;
+        default:
+           console.log('value1')
+
+    //    return false
+       }
+       
+       confirm(`Name:\n${value1}\n\nIssue:\n${value2}\n\nSteps Attempted:\n${value3}`)
+      
+       
+        
+
+      
+    }
+    </script>
+</body>
+</html>
